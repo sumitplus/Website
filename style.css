@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+
+p {
+  line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: dotted #c5eeee 8px;
+  border-bottom: none;
+  width: 5%;
+  margin: 120px auto;
+}
+
+/** Code for top container **/
+.top-container {
+  background-color: #E4F9F5;
+  padding-top: 82px;
+  position: relative;
+}
+
+span.pro {
+  text-decoration: underline;
+}
+
+.top-cloud,
+.bottom-cloud {
+  position: absolute;
+  width: 100px; /* Reduced size for smaller screens */
+}
+
+.top-cloud {
+  right: 10%;
+  top: 50px;
+}
+
+.bottom-cloud {
+  left: 10%;
+  bottom: 250px;
+}
+
+/** Code for Middle container **/
+.middle-container {
+  margin-top: 120px;
+  padding: 0 20px;
+}
+
+.sumit-img {
+  border-radius: 100px;
+  width: 150px; /* Reduced size for better mobile layout */
+}
+
+.intro {
+  width: 80%; /* Adjusted width for better mobile readability */
+  margin: auto;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/** Code for bottom container **/
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+a {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+.contact1 {
+  width: 80%;
+  margin: 40px auto 60px;
+}
+
+.copy {
+  color: #eaf6f6;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/** Responsive Design **/
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 70px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .top-cloud,
+  .bottom-cloud {
+    width: 80px;
+  }
+
+  .sumit-img {
+    width: 120px;
+  }
+
+  .intro {
+    width: 90%;
+  }
+
+  .btn {
+    font-size: 18px;
+    padding: 8px 16px;
+  }
+
+  hr {
+    margin: 60px auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .top-cloud,
+  .bottom-cloud {
+    display: none; /* Hide clouds on very small screens */
+  }
+
+  .sumit-img {
+    width: 100px;
+  }
+
+  .intro {
+    width: 95%;
+  }
+
+  .btn {
+    font-size: 16px;
+    padding: 6px 12px;
+  }
+
+  .contact1 {
+    width: 95%;
+  }
+}
